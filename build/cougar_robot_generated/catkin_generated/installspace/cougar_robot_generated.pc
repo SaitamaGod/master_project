@@ -1,0 +1,8 @@
+prefix=/home/saitama/catkin_ws/install
+
+Name: cougar_robot_generated
+Description: Description of cougar_robot_generated
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/saitama/catkin_ws/install/lib 
+Requires: 

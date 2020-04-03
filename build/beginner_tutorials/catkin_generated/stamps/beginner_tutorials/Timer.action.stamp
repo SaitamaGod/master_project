@@ -1,0 +1,14 @@
+#Part 1: the goal, to be sent to the client
+
+duration time_to_wait
+---
+
+#Part 2: the result, to be sent by server upon completion
+
+duration time_elapsed
+uint32 updates_sent
+---
+
+#Part 3: the feedback, to be sent periodically by the server during execution
+duration time_elapsed
+duration time_remaining

@@ -1,0 +1,10 @@
+\subsubsection usage Usage
+\verbatim
+<node name="my_dyn_rec" pkg="my_dyn_rec" type="my_dyn_rec">
+  <param name="int_param" type="int" value="50" />
+  <param name="freq_param" type="int" value="60" />
+  <param name="bool_param" type="bool" value="True" />
+  <param name="size" type="int" value="1" />
+</node>
+\endverbatim
+

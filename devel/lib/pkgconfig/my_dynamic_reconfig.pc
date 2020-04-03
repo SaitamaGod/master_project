@@ -1,0 +1,8 @@
+prefix=/home/saitama/catkin_ws/devel
+
+Name: my_dynamic_reconfig
+Description: Description of my_dynamic_reconfig
+Version: 0.0.0
+Cflags: -I/home/saitama/catkin_ws/devel/include
+Libs: -L/home/saitama/catkin_ws/devel/lib 
+Requires: 

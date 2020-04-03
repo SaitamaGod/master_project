@@ -1,0 +1,8 @@
+prefix=/home/saitama/catkin_ws/devel
+
+Name: my_dyn_rec
+Description: Description of my_dyn_rec
+Version: 0.0.0
+Cflags: -I/home/saitama/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

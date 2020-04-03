@@ -1,0 +1,2 @@
+set(dyret_common_MESSAGE_FILES "/home/saitama/catkin_ws/src/dyret_common/msg/Pose.msg;/home/saitama/catkin_ws/src/dyret_common/msg/Configuration.msg;/home/saitama/catkin_ws/src/dyret_common/msg/RevoluteConfig.msg;/home/saitama/catkin_ws/src/dyret_common/msg/PrismaticConfig.msg;/home/saitama/catkin_ws/src/dyret_common/msg/RevoluteState.msg;/home/saitama/catkin_ws/src/dyret_common/msg/PrismaticState.msg;/home/saitama/catkin_ws/src/dyret_common/msg/State.msg")
+set(dyret_common_SERVICE_FILES "/home/saitama/catkin_ws/src/dyret_common/srv/Configure.srv")

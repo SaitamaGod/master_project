@@ -1,0 +1,8 @@
+prefix=/home/saitama/catkin_ws/install
+
+Name: cougar_robot
+Description: Description of cougar_robot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
