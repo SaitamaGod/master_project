@@ -34,7 +34,7 @@ def mapped(val, in_min, in_max, out_min, out_max):
 class GazeboLinkPose:
   link_name = ''
   link_pose = Pose()
-  publish_rate = 0
+  publish_rate = 1
   theta = 0
   def __init__(self, link_name, publish_rate):
     self.link_name = link_name
@@ -62,8 +62,7 @@ if __name__ == '__main__':
   try:
     rospy.init_node('gazebo_link_pose', anonymous=True)
     gp = GazeboLinkPose('two_dof_robot::hub_top', 10)
-    publish_rate = 10
-
+    publish_rate = 1
     rate = rospy.Rate(gp.publish_rate)
     while not rospy.is_shutdown():
       gp.pose_pub.publish(gp.link_pose)
